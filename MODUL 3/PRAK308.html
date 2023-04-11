@@ -1,0 +1,72 @@
+<html>
+<head>
+    <style type="text/css">
+        h1{color: red; font-size: 27px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        h3{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        .data_diri{font-size:12;}
+    </style>
+    <title> Pendaftaran </title>
+</head>
+<body>
+    <table align="left" width="35%" cellspacing="1" cellpadding="2" border="4">
+        <tr height="70" bgcolor="skyblue">
+            <th align="center" colspan="3" valign="middle"><h1>Pendaftaran Kursus</h1></th>
+        </tr>
+        <tr height="400">
+            <td width="100%" valign="top" bgcolor="grey">
+                <h3>Data Diri</h3>
+                <table class="data_diri">
+                    <tr>
+                        <td> Nama </td>
+                        <th align="left"><input type="text" name="nama"></th>
+                    </tr>
+                    <tr>
+                        <td> NIM </td>
+                        <th align="left"><input type="text" name="nim"></th>
+                    </tr>
+                    <tr>
+                        <td> Email </td>
+                        <th align="left"><input type="text" name="email"></th>
+                    </tr>
+                    <tr>
+                        <td> Tanggal Lahir </td>
+                        <th align="left"><input type="date" name="tl"></input></th>
+                    </tr>
+                    <tr>
+                        <td> Jenis Kelamin </td>
+                        <th>
+                            <table>
+                        <tr>
+                            <td><input type="radio" name="jenis_kelamin" value="L"> Laki-Laki </td>
+                        </tr>
+                            <td><input type="radio" name="jenis_kelamin" value="p"> Perempuan </td>
+                        </table>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td> Pilih Program Kursus </td>
+                        <th>
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" name="c#" value="L"> C#</td>
+                                </tr>
+                                    <td><input type="checkbox" name="java" value="p"> Java</td>
+                                <tr>
+                                    <td><input type="checkbox" name="sql" value="L"> SQL</td>
+                                </tr>
+                                    <td><input type="checkbox" name="htmlsql" value="p"> HTML dan PHP</td>
+                            </table>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td lenght> Pilihan Hari/Jam Kursus</td>
+                        <th>
+                            <select name="Jadwal">
+                                <option value="sr"> Senin - Rabu/09.00 - 11.00 </option>
+                                <option value="rj"> Rabu - Jumat/09.00 - 11.00 </option>
+                                <option value="jm"> Jumat - Minggu/09.00 - 11.00 </option>
+                            </select>
+                        </th>
+                    </tr>
+                </table>
+            </td>
